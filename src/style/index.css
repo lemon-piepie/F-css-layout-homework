@@ -65,8 +65,8 @@ footer {
 }
 .left-art {
 	padding: 20px;
-	margin: 10px;
-	width: 80%;
+	margin-bottom: 40px;
+	width: 20%;
 	background-color: lightgray;
 	line-height: 1.2em;
 	text-align: left;
@@ -76,9 +76,10 @@ footer {
 	font-style: italic;
 }
 .middle {
-	width: 45%;
+	width: 35%;
 	overflow: hidden;
 	border: 1px solid lightgray;
+	margin-bottom: 20px;
 }
 .middle img {
 	display: block;	
@@ -93,35 +94,26 @@ footer {
 	font-weight: bolder;
 }
 
-.left {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-}
-.mid {
+.content {
+	margin:50px 40px;
+	height: 1000px;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	height: 55em;
-	justify-content: space-between;
-}
-.content {
-	margin:50px 40px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;	
+	width: 80%;
 }
 main {
 	display: flex;
-	align-items: center;
 	flex-direction: row;
-	justify-content: space-between;	
 }
 .right-aside {
-	width: 60%;
+	width: 18%;
 	background-color: lightgray;
 	padding: 20px;
-	height: 20%;
+	position: fixed;
+	right: 0;
+	top: 50%;
+	margin-top: -70px;
 }
 .text {
 	width: 100%;
