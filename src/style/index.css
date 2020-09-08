@@ -58,7 +58,7 @@ footer {
 .left-art {
 	padding: 20px;
 	margin: 10px;
-	width: 15%;
+	width: 60%;
 	background-color: darkgray;
 	line-height: 1.2em;
 	text-align: left;
@@ -68,10 +68,9 @@ footer {
 	font-style: italic;
 }
 .middle {
-	width: 25%;
+	width: 30%;
 	overflow: hidden;
 	border: 1px solid darkgray;
-	margin: 10px;
 }
 .middle img {
 	display: block;	
@@ -84,4 +83,23 @@ footer {
 	text-decoration: none;
 	color: blue;
 	font-weight: bolder;
+}
+
+.left {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.mid {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: 65em;
+	justify-content: space-between;
+}
+.content {
+	margin:50px 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
