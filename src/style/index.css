@@ -18,3 +18,18 @@ ul {
   margin: 0;
   padding: 0;
 }
+li:hover {
+	cursor: pointer;
+}
+
+.header-nav {
+	height: 80px;
+	background-color: black;
+	padding: 0 50px;
+}
+.nav-ul {
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	line-height: 80px;
+}
