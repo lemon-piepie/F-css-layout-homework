@@ -21,6 +21,12 @@ ul {
 li:hover {
 	cursor: pointer;
 }
+h1 {
+	font-weight: bolder;
+}
+a {
+	display: block;
+}
 
 .header-nav {
 	height: 80px;
@@ -47,4 +53,17 @@ footer {
 	display: table-row;
 	line-height: 2em;
 	color: lightgray;
+}
+.left-art {
+	padding: 20px;
+	margin: 10px;
+	width: 15%;
+	background-color: darkgray;
+	line-height: 1.2em;
+	text-align: left;
+	vertical-align: middle;
+}
+.left-art-topic {
+	font-style: italic;
+	text-align: center;
 }
