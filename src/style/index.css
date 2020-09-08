@@ -23,6 +23,7 @@ li:hover {
 }
 h1 {
 	font-weight: bolder;
+	font-size: 1.2em;
 }
 a {
 	display: block;
@@ -65,5 +66,22 @@ footer {
 }
 .left-art-topic {
 	font-style: italic;
-	text-align: center;
+}
+.middle {
+	width: 25%;
+	overflow: hidden;
+	border: 1px solid darkgray;
+	margin: 10px;
+}
+.middle img {
+	display: block;	
+	border-bottom: 1px solid darkgray;
+}
+.middle-art {
+	padding: 20px;
+}
+.view-detail {
+	text-decoration: none;
+	color: blue;
+	font-weight: bolder;
 }
