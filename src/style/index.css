@@ -80,6 +80,7 @@ footer {
 	overflow: hidden;
 	border: 1px solid lightgray;
 	margin-bottom: 20px;
+	box-shadow: 5px 5px 5px #888888;
 }
 .middle img {
 	display: block;	
@@ -110,10 +111,10 @@ main {
 	width: 18%;
 	background-color: lightgray;
 	padding: 20px;
-	position: fixed;
+	position: absolute;
 	right: 0;
 	top: 50%;
-	margin-top: -70px;
+	margin-top: 80px;
 }
 .text {
 	width: 100%;
